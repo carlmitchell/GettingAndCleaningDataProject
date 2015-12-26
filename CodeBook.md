@@ -20,4 +20,5 @@ The output file is a space-separated text file output by the write.table() R fun
 * 1) A description of the activity.
 * 2) The activity ID (1-6) (I left this in for easy use as a numeric factor - it's completely redundant with Column 1)
 * 3) The subject ID (1-30)
+
 The remaining 66 columns represent the average Mean and Standard Deviation of 33 observables for each Subject-Activity combination. The column titles ought to be somewhat self-explanatory here, and end with "Mean" or "Std" appropriately, for example "FBodyBodyGyroJerkMagMean" and "FBodyBodyGyroJerkMagStd".
